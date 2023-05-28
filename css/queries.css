@@ -1,0 +1,853 @@
+/* Mobile phones (portrait and landscape) ---------- */
+@media screen and (max-width: 767px){
+    #wrapper {
+	width: 100%;
+	margin: 0 auto;
+	border: 2px solid #ccc;
+	margin-top: 2px;
+}
+#header {
+	height: 150px;
+	background-color: #ccc;
+	border: 2px solid #B22222;
+	border-radius: 5px;
+	margin: 2px 2px 2px 2px;
+	padding: 2px;
+}
+.img-container {
+	background-image: url("img_001.jpg");
+	height: 142px;
+	width: 480px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.Logo {
+	max-height: 50%;
+	max-width: 50%;
+	float: left;
+	margin-top: 30px;
+}
+h1 {
+	color: white;
+	font-family: sans sarif;
+	text-align: center;
+	padding: 15px;
+	font-size: 30px;
+}
+h2 {
+	border: double #FDFDFD 2px;
+	margin: 0;
+	text-align: center;
+}
+h3 {
+	border: double #C41417 2px;
+	margin: 0;
+}
+#nav {
+	height: 38px;
+	background-color: darkgreen;
+}
+#content {
+	width: 480px;
+	min-height: 400px;
+	float: right;
+	background-color: #eee;
+}
+#siderbar {
+	width: 260px;
+	min-height: 400px;
+	float: left;
+}
+.clear {
+	clear: both;
+}
+#footer {
+	height: 40px;
+	background-color: darkgreen;
+	font-family: sans sarif;
+	color: white;
+	text-align: center;
+}
+#nav {
+	background: white;
+}
+#nav:after {
+	content: '';
+	clear: both;
+	display: block;
+	margin-right: 2px;
+}#nav ul {
+	list-style: none;
+	margin: 0;
+	position: relative;
+	z-index: 99;
+}
+#nav > ul > li {
+	float: left;
+	position: relative;
+}
+#nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 15px;
+	display: block;
+}
+#nav ul li :hover a {
+	background: darkgreen;
+}
+#nav ul li a:hover {
+	background: yellow;
+}
+#nav ul ul {
+	position: absolute;
+	padding: 0;
+	min-width: 220px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+#nav ul li:hover > ul {
+	display: block;
+}
+#nav ul ul li:hover a {
+	background: yellow;
+}
+#nav ul ul ul li:hover a {
+	background: green;
+}
+#nav ul li {
+	background-color: darkgreen;
+	opacity: .8;
+	margin-bottom: 2px;
+	margin-right: 2px;
+}
+#sidebar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-color: white;
+	height: 100%;
+	float: left;
+}
+#sidebar li a {
+	display: block;
+	color: white;
+	padding: 8px 35px;
+	text-decoration: none;
+}
+#sidebar li > a:hover {
+	background-color: yellow;
+	color: white;
+}
+#sidebar ul li {
+	background-color: darkgreen;
+	margin-bottom: 2px;
+	opacity: .8;
+}
+#mission-statement  {
+	width: 100%;
+	height: 100%;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	padding: 8px;
+	margin-bottom: 2px;
+	background-color: green;
+	color: white;
+	text-align: justify;
+}
+#school-motto {
+	width: 100%;
+	height: 100%;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	padding: 8px;
+	margin-bottom: 2px;
+	background-color: green;
+	color: white;
+	text-align: center;
+}
+#vision-statement {
+	width: 100%;
+	height: 100%;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	padding: 8px;
+	margin-bottom: 2px;
+	background-color: green;
+	color: white;
+	text-align: justify;
+}
+.visit-us {
+	width: 100%;
+	height: 100%;
+	border: 2px solid #B22222;
+	border-radius: 5px;
+	background-color: green;
+	color: white;
+}
+#current-events {
+	height: 100%;
+	float: left;
+	width: 100%;
+	border: 2px solid #B22222;
+	border-radius: 5px;
+	margin-left: 2px;
+	padding: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+#upcoming-events {
+	height: 100%;
+	float: right;
+	width: 100%;
+	border: 2px solid #B22222;
+	border-radius: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+}
+/* Tablets and iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1023px){
+ #wrapper {
+	width: 770px;
+	margin: 0 auto;
+	border: 2px solid #ccc;
+	margin-top: 2px;
+}
+#header {
+	height: 170px;
+	background-color: #ccc;
+	border: 2px solid #B22222;
+	border-radius: 2px;
+	margin: 2px 2px 2px 2px;
+	padding: 2px;
+}
+.img-container {
+	background-image: url("img_001.jpg");
+	height: 165;
+	width: 750px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.Logo {
+	max-height: 50%;
+	max-width: 50%;
+	float: left;
+	margin-top: 30px;
+}
+h1 {
+	color: white;
+	font-family: sans sarif;
+	text-align: center;
+	padding: 60px;
+	font-size: 30px;
+}
+h2 {
+	border: double #FDFDFD 2px;
+	margin: 0;
+	text-align: center;
+}
+h3 {
+	border: double #C41417 2px;
+	margin: 0;
+}
+#nav {
+	height: 30px;
+	background-color: darkgreen;
+}
+#content {
+	width: 760px;
+	min-height: 400px;
+	float: right;
+	background-color: #eee;
+}
+#siderbar {
+	width: 750px;
+	min-height: 400px;
+	float: left;
+}
+.clear {
+	clear: both;
+}
+#footer {
+	height: 40px;
+	background-color: darkgreen;
+	font-family: sans sarif;
+	color: white;
+	text-align: center;
+}
+#nav {
+	background: white;
+}
+#nav:after {
+	content: '';
+	clear: both;
+	display: block;
+	margin-right: 2px;
+}#nav ul {
+	list-style: none;
+	margin: 0;
+	position: relative;
+	z-index: 99;
+}
+#nav > ul > li {
+	float: left;
+	position: relative;
+}
+#nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 16px;
+	display: block;
+}
+#nav ul li :hover a {
+	background: darkgreen;
+}
+#nav ul li a:hover {
+	background: yellow;
+}
+#nav ul ul {
+	position: absolute;
+	padding: 0;
+	min-width: 220px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+#nav ul li:hover > ul {
+	display: block;
+}
+#nav ul ul li:hover a {
+	background: yellow;
+}
+#nav ul ul ul li:hover a {
+	background: green;
+}
+#nav ul li {
+	background-color: darkgreen;
+	opacity: .8;
+	margin-bottom: 2px;
+	margin-right: 2px;
+}
+#sidebar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 750px;
+	background-color: white;
+	height: 100%;
+	float: left;
+}
+#sidebar li a {
+	display: block;
+	color: white;
+	padding: 8px 25px;
+	text-decoration: none;
+}
+#sidebar li > a:hover {
+	background-color: yellow;
+	color: white;
+}
+#sidebar ul li {
+	background-color: darkgreen;
+	margin-bottom: 2px;
+	opacity: .8;
+}
+#mission-statement  {
+	width: 750px;
+	height: 100%;
+	border: 2px solid #B22222;
+	border-radius: 5px;
+	padding: 4px;
+	margin-bottom: 2px;
+	background-color: green;
+	color: white;
+	text-align: justify;
+}
+#school-motto {
+	width: 750px;
+	height: 100%;
+	border: 2px solid #B22222;
+	border-radius: 5px;
+	padding: 4px;
+	margin-bottom: 2px;
+	background-color: green;
+	color: white;
+	text-align: center;
+}
+#vision-statement {
+	width: 750px;
+	height: 100%;
+	border: 2px solid #B22222;
+	border-radius: 5px;
+	padding: 4px;
+	margin-bottom: 2px;
+	background-color: green;
+	color: white;
+	text-align: justify;
+}
+.visit-us {
+	width: 750px;
+	height: 100%;
+	border: 2px solid #B22222;
+	border-radius: 5px;
+	background-color: green;
+	color: white;
+}
+#current-events {
+	height: 100%;
+	float: left;
+	width: 750px;
+	border: 2px solid #B22222;
+	border-radius: 5px;
+	margin-left: 2px;
+	padding: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+#upcoming-events {
+	height: 100%;
+	float: right;
+	width: 750px;
+	border: 2px solid #B22222;
+	border-radius: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+}
+/* Low resolution desktops and laptops ---------- */
+@media screen and (min-width: 1024px) {
+#wrapper {
+	width: 1016px;
+	margin: 0 auto;
+	border: 2px solid #ccc;
+	margin-top: 2px;
+}
+#header {
+	height: 150px;
+	background-color: #ccc;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	margin: 2px 2px 2px 2px;
+	padding: 2px;
+}
+.img-container {
+	background-image: url("img_001.jpg");
+	height: 150px;
+	width: 1006px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.Logo {
+	max-height: 70%;
+	max-width: 70%;
+	float: left;
+}
+h1 {
+	color: white;
+	font-family: sans sarif;
+	text-align: center;
+	padding: 40px;
+	font-size: 30px;
+}
+h2 {
+	border: double #FDFDFD 2px;
+	margin: 0;
+	text-align: center;
+}
+h3 {
+	border: double #C41417 2px;
+	margin: 0;
+}
+#nav {
+	height: 20px;
+	background-color: darkgreen;
+}
+#content {
+	width: 772px;
+	min-height: 400px;
+	float: right;
+	background-color: #eee;
+}
+#siderbar {
+	width: 230px;
+	min-height: 400px;
+	float: left;
+}
+.clear {
+	clear: both;
+}
+#footer {
+	height: 40px;
+	background-color: darkgreen;
+	font-family: sans sarif;
+	color: white;
+	text-align: center;
+}
+#nav {
+	background: white;
+}
+#nav:after {
+	content: '';
+	clear: both;
+	display: block;
+	margin-right: 2px;
+}#nav ul {
+	list-style: none;
+	margin: 0;
+	position: relative;
+	z-index: 99;
+}
+#nav > ul > li {
+	float: left;
+	position: relative;
+}
+#nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px 16.3px;
+	display: block;
+}
+#nav ul li :hover a {
+	background: darkgreen;
+}
+#nav ul li a:hover {
+	background: yellow;
+}
+#nav ul ul {
+	position: absolute;
+	padding: 0;
+	min-width: 220px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+#nav ul li:hover > ul {
+	display: block;
+}
+#nav ul ul li:hover a {
+	background: yellow;
+}
+#nav ul ul ul li:hover a {
+	background: green;
+}
+#nav ul li {
+	background-color: darkgreen;
+	opacity: .8;
+	margin-bottom: 2px;
+	margin-right: 2px;
+}
+#sidebar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 236px;
+	background-color: white;
+	height: 100%;
+	float: left;
+}
+#sidebar li a {
+	display: block;
+	color: white;
+	padding: 4px 25px;
+	text-decoration: none;
+}
+#sidebar li > a:hover {
+	background-color: yellow;
+	color: white;
+}
+#sidebar ul li {
+	background-color: darkgreen;
+	margin-bottom: 2px;
+	opacity: .8;
+}
+#mission-statement  {
+	width: 236px;
+	height: 140px;
+	border: 2px solid #B22222;
+	border-radius: 5px;
+	padding: 4px;
+	margin-bottom: 2px;
+	background-color: green;
+	color: white;
+	text-align: justify;
+}
+#school-motto {
+	width: 236px;
+	height: 80px;
+	border: 2px solid #B22222;
+	border-radius: 5px;
+	padding: 4px;
+	margin-bottom: 2px;
+	background-color: green;
+	color: white;
+	text-align: center;
+}
+#vision-statement {
+	width: 236px;
+	height: 140px;
+	border: 2px solid #B22222;
+	border-radius: 5px;
+	padding: 4px;
+	margin-bottom: 2px;
+	background-color: green;
+	color: white;
+	text-align: justify;
+}
+.visit-us {
+	width: 236px;
+	height: 290px;
+	border: 2px solid #B22222;
+	border-radius: 5px;
+	background-color: green;
+	color: white;
+}
+#current-events {
+	height: 435px;
+	float: left;
+	width: 340px;
+	border: 2px solid #B22222;
+	border-radius: 5px;
+	margin-left: 2px;
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#upcoming-events {
+	height: 435px;
+	float: right;
+	width: 420px;
+	border: 2px solid #B22222;
+	border-radius: 5px;
+	margin-right: 5px;
+	padding: 5px;
+	margin-bottom: 5px;
+	text-align: center;
+}
+
+}
+/* High resolution desktops and laptops ---------- */
+@media screen and (min-width: 1280px) {
+  #wrapper {
+	width: 1140px;
+	margin: 0 auto;
+	border: 2px solid #ccc;
+	margin-top: 2px;
+}
+#header {
+	height: 170px;
+	background-color: #ccc;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	margin: 2px 2px 2px 2px;
+	padding: 2px;
+}
+.img-container {
+	background-image: url("img_001.jpg");
+	height: 165px;
+	width: 1125px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.Logo {
+	max-height: 100%;
+	max-width: 100%;
+	float: left;
+}
+h1 {
+	color: white;
+	font-family: sans sarif;
+	text-align: center;
+	padding: 50px;
+	font-size: 40px;
+}
+h2 {
+	border: double #FDFDFD 2px;
+	margin: 0;
+	text-align: center;
+}
+h3 {
+	border: double #C41417 2px;
+	margin: 0;
+}
+#nav {
+	height: 38px;
+	background-color: darkgreen;
+}
+#content {
+	width: 853px;
+	min-height: 400px;
+	float: right;
+	background-color: #eee;
+}
+#siderbar {
+	width: 260px;
+	min-height: 400px;
+	float: left;
+}
+.clear {
+	clear: both;
+}
+#footer {
+	height: 40px;
+	background-color: darkgreen;
+	font-family: sans sarif;
+	color: white;
+	text-align: center;
+}
+#nav {
+	background: white;
+}
+#nav:after {
+	content: '';
+	clear: both;
+	display: block;
+	margin-right: 2px;
+}#nav ul {
+	list-style: none;
+	margin: 0;
+	position: relative;
+	z-index: 99;
+}
+#nav > ul > li {
+	float: left;
+	position: relative;
+}
+#nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 23.4px;
+	display: block;
+}
+#nav ul li :hover a {
+	background: darkgreen;
+}
+#nav ul li a:hover {
+	background: yellow;
+}
+#nav ul ul {
+	position: absolute;
+	padding: 0;
+	min-width: 220px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+#nav ul li:hover > ul {
+	display: block;
+}
+#nav ul ul li:hover a {
+	background: yellow;
+}
+#nav ul ul ul li:hover a {
+	background: green;
+}
+#nav ul li {
+	background-color: darkgreen;
+	opacity: .8;
+	margin-bottom: 2px;
+	margin-right: 2px;
+}
+#sidebar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 265px;
+	background-color: white;
+	height: 100%;
+	float: left;
+}
+#sidebar li a {
+	display: block;
+	color: white;
+	padding: 8px 35px;
+	text-decoration: none;
+}
+#sidebar li > a:hover {
+	background-color: yellow;
+	color: white;
+}
+#sidebar ul li {
+	background-color: darkgreen;
+	margin-bottom: 2px;
+	opacity: .8;
+}
+#mission-statement  {
+	width: 265px;
+	height: 120px;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	padding: 8px;
+	margin-bottom: 2px;
+	background-color: green;
+	color: white;
+	text-align: justify;
+}
+#school-motto {
+	width: 265px;
+	height: 80px;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	padding: 8px;
+	margin-bottom: 2px;
+	background-color: green;
+	color: white;
+	text-align: center;
+}
+#vision-statement {
+	width: 265px;
+	height: 150px;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	padding: 8px;
+	margin-bottom: 2px;
+	background-color: green;
+	color: white;
+	text-align: justify;
+}
+.visit-us {
+	width: 265px;
+	height: 290px;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	background-color: green;
+	color: white;
+}
+#current-events {
+	height: 420px;
+	float: left;
+	width: 370px;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	margin-left: 2px;
+	padding: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#upcoming-events {
+	height: 420px;
+	float: right;
+	width: 464px;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+}

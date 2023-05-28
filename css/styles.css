@@ -1,0 +1,215 @@
+*{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+#wrapper {
+	width: 1140px;
+	margin: 0 auto;
+	border: 2px solid #ccc;
+	margin-top: 2px;
+}
+#header {
+	height: 170px;
+	background-color: #ccc;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	margin: 2px 2px 2px 2px;
+	padding: 2px;
+}
+.img-container {
+	background-image: url("img_001.jpg");
+	height: 165px;
+	width: 1125px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.Logo {
+	max-height: 100%;
+	max-width: 100%;
+	float: left;
+}
+h1 {
+	color: white;
+	font-family: sans sarif;
+	text-align: center;
+	padding: 50px;
+	font-size: 40px;
+}
+h2 {
+	border: double #FDFDFD 2px;
+	margin: 0;
+	text-align: center;
+}
+h3 {
+	border: double #C41417 2px;
+	margin: 0;
+}
+#nav {
+	height: 38px;
+	background-color: darkgreen;
+}
+#content {
+	width: 853px;
+	min-height: 400px;
+	float: right;
+	background-color: #eee;
+}
+#siderbar {
+	width: 260px;
+	min-height: 400px;
+	float: left;
+}
+.clear {
+	clear: both;
+}
+#footer {
+	height: 40px;
+	background-color: darkgreen;
+	font-family: sans sarif;
+	color: white;
+	text-align: center;
+}
+#nav {
+	background: white;
+}
+#nav:after {
+	content: '';
+	clear: both;
+	display: block;
+	margin-right: 2px;
+}#nav ul {
+	list-style: none;
+	margin: 0;
+	position: relative;
+	z-index: 99;
+}
+#nav > ul > li {
+	float: left;
+	position: relative;
+}
+#nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding: 10px 23.4px;
+	display: block;
+}
+#nav ul li :hover a {
+	background: darkgreen;
+}
+#nav ul li a:hover {
+	background: yellow;
+}
+#nav ul ul {
+	position: absolute;
+	padding: 0;
+	min-width: 220px;
+	display: none;
+	top: 100%;
+	left: 0;
+}
+#nav ul li:hover > ul {
+	display: block;
+}
+#nav ul ul li:hover a {
+	background: yellow;
+}
+#nav ul ul ul li:hover a {
+	background: green;
+}
+#nav ul li {
+	background-color: darkgreen;
+	opacity: .8;
+	margin-bottom: 2px;
+	margin-right: 2px;
+}
+#sidebar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 265px;
+	background-color: white;
+	height: 100%;
+	float: left;
+}
+#sidebar li a {
+	display: block;
+	color: white;
+	padding: 8px 35px;
+	text-decoration: none;
+}
+#sidebar li > a:hover {
+	background-color: yellow;
+	color: white;
+}
+#sidebar ul li {
+	background-color: darkgreen;
+	margin-bottom: 2px;
+	opacity: .8;
+}
+#mission-statement  {
+	width: 265px;
+	height: 120px;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	padding: 8px;
+	margin-bottom: 2px;
+	background-color: green;
+	color: white;
+	text-align: justify;
+}
+#school-motto {
+	width: 265px;
+	height: 80px;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	padding: 8px;
+	margin-bottom: 2px;
+	background-color: green;
+	color: white;
+	text-align: center;
+}
+#vision-statement {
+	width: 265px;
+	height: 150px;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	padding: 8px;
+	margin-bottom: 2px;
+	background-color: green;
+	color: white;
+	text-align: justify;
+}
+.visit-us {
+	width: 265px;
+	height: 290px;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	background-color: green;
+	color: white;
+}
+#current-events {
+	height: 420px;
+	float: left;
+	width: 370px;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	margin-left: 2px;
+	padding: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#upcoming-events {
+	height: 420px;
+	float: right;
+	width: 464px;
+	border: 2px solid #B22222;
+	border-radius: 10px;
+	margin-right: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+}
